@@ -1,9 +1,9 @@
 ---
 sub-product: Adobe Experience Manager
-user-guide-title: AEM \<\> VPM-Integration
-breadcrumb-title: AEM \<\> VPM-Integration
-user-guide-description: AEM \<\> VPM-Integrationsdokumentation.
-source-git-commit: 005c738818ab622a342ddc3a94e94638e344d058
+user-guide-title: AEM <> VVPM-Integration
+breadcrumb-title: AEM <> VVPM-Integration
+user-guide-description: AEM <> VVPM-Integrationsdokumentation.
+source-git-commit: 2e47baa4a255c34b3ca0b8631650dd5d8960fea8
 workflow-type: tm+mt
 source-wordcount: '17'
 ht-degree: 17%
@@ -11,7 +11,7 @@ ht-degree: 17%
 ---
 
 
-# AEM \&lt;\> VPM-Integration {#aem-vvpm-integration}
+# AEM &lt;> VVPM-Integration {#aem-vvpm-integration}
 
 + [Übersicht](overview.md)
 + [Verwendung](usage.md)

@@ -2,7 +2,7 @@
 title: Übersicht zur Veva Vault-Integration
 description: Übersicht zur Veva Vault-Integration
 exl-id: 52cc7290-b7e1-4476-877f-48934e6daf68
-source-git-commit: 005c738818ab622a342ddc3a94e94638e344d058
+source-git-commit: 2e47baa4a255c34b3ca0b8631650dd5d8960fea8
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -33,8 +33,7 @@ Für diese Integration sind die folgenden Mindestversionen von Software erforder
 Diese Integration unterstützt zwei Hauptanwendungsfälle:
 
 1. Inhaltsvalidierung - Wenn neue Inhalte erstellt wurden oder vorhandene Inhalte in AEM bearbeitet wurden, muss der Inhalt für die Verwendung in VVPM genehmigt werden, das den Genehmigungsprozess für Medical, Legal, Regulatory (MLR) für Life Sciences unterstützt.
-
-2. Content Management - Stellen Sie die Sichtbarkeit der Asset-Nutzung bereit, indem Sie in PromoMats Beziehungen zwischen digitalen Taktiken (z. B. E-Mail, Präsentationen, Websites) und deren Elementen (z. B. Logos, Fotografie, Grafiken) herstellen, die in AEM für Dokumente aus AEM erstellt wurden.
+1. Content Management - Stellen Sie die Sichtbarkeit der Asset-Nutzung bereit, indem Sie in PromoMats Beziehungen zwischen digitalen Taktiken (z. B. E-Mail, Präsentationen, Websites) und deren Elementen (z. B. Logos, Fotografie, Grafiken) herstellen, die in AEM für Dokumente aus AEM erstellt wurden.
 
 Zu den Vorteilen zählen:
 
@@ -67,7 +66,6 @@ Was macht der Connector NICHT?
 >[!IMPORTANT]
 >
 >Diese Integration betrachtet AEM derzeit als &quot;Source of Truth&quot; für die Synchronisierung von Inhalten.
->
 
 ## Abrufen der Integration
 
