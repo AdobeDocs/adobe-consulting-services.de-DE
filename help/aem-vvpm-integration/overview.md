@@ -2,7 +2,7 @@
 title: Übersicht zur Veva Vault-Integration
 description: Übersicht zur Veva Vault-Integration
 exl-id: 52cc7290-b7e1-4476-877f-48934e6daf68
-source-git-commit: 4d27e7ecca662b2082a18621becb0b8ec7735824
+source-git-commit: 005c738818ab622a342ddc3a94e94638e344d058
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -101,3 +101,4 @@ Support-Tickets können bei der Adobe-Kundenunterstützung protokolliert werden.
 ### Anfordern der Unterstützung von Vevar Vault PromoMats
 
 Manchmal handelt es sich bei dem aufgetretenen Problem um ein Problem mit dem Betrieb der Veva Vault PromoMats-Instanz. Sollte dies der Fall sein, wird Ihr Administrator von Veeva Vault PromoMats möglicherweise angewiesen, ein Support-Ticket mit [Unterstützung von VEC](http://support.veeva.com/). Der Status der VEC-Instanz kann angezeigt werden, indem Sie zu [Veeva Trust](http://trust.veeva.com/).
+
