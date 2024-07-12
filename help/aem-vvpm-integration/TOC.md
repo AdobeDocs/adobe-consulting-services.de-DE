@@ -13,7 +13,7 @@ ht-degree: 17%
 
 # AEM &lt;> VVPM-Integration {#aem-vvpm-integration}
 
-+ [Übersicht](overview.md)
++ [Überblick](overview.md)
 + [Verwendung](usage.md)
 + [Hinweise](notices.md)
-+ [FAQs](faq.md)
++ [Häufig gestellte Fragen](faq.md)

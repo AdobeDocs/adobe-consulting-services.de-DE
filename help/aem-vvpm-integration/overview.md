@@ -78,7 +78,7 @@ Befolgen Sie das unten stehende Flussdiagramm und die Details des Flussdiagramms
 Flussdiagrammdetails (sind den oben genannten Schritten zugeordnet):
 
 * **Schritt 1** - Es wird davon ausgegangen, dass Sie bereits über eine Lizenz für Veeva Vault PromoMats und für Adobe Experience Manager verfügen oder diese gerade erwerben.
-* **Schritt 2** - Zur Nutzung der Integration muss ein neuer Auftrag (SO) unterzeichnet werden, in dem eine Wartungsvereinbarung mit Adobe Consulting beschrieben wird.
+* **Schritt 2** - Ein neuer Auftrag (SO), in dem ein Wartungsvertrag mit Adobe Consulting beschrieben wird, muss unterzeichnet werden, um die Integration nutzen zu können.
 * **Schritt 3** - Installieren, Aktivieren und Konfigurieren des Integrationspakets.
 
 ## Support
@@ -87,16 +87,16 @@ Im Folgenden wird beschrieben, wie Sie ein Problem beim Support-Team melden und 
 
 ### Anfordern der Integration oder Adobe Experience Manager-Unterstützung
 
-Support-Tickets können bei der Adobe-Kundenunterstützung protokolliert werden. Ihr Adobe Experience Cloud-Administrator muss sich bei [Adobe Admin Console](https://adminconsole.adobe.com/), klicken Sie auf den Tab Support und erstellen Sie eine Groß-/Kleinschreibung. Achten Sie bei Integrationsproblemen darauf, die folgenden Informationen einzuschließen:
+Support-Tickets können bei der Adobe-Kundenunterstützung protokolliert werden. Ihr Adobe Experience Cloud-Administrator muss sich bei [Adobe Admin Console](https://adminconsole.adobe.com/) anmelden, auf die Registerkarte &quot;Support&quot;klicken und eine Groß-/Kleinschreibung erstellen. Achten Sie bei Integrationsproblemen darauf, die folgenden Informationen einzuschließen:
 
 * **Prozesstitel**: `AEM - Veeva Vault Integration`
 * **Prozesseigentümer**: `Data Engineering`
 * **Beschreibung**: `Description of the issue`
-* **Kontaktstelle**: `The email address(es) for relavant AEM point of contacts for your organization.`
+* **Kontaktpunkt**: `The email address(es) for relavant AEM point of contacts for your organization.`
 * **AEM Instanz-URL**: `Place the Adobe Experience Manager instance url here.`
 * **VEC-Instanz-URL**: `Place the Veeva Vault PromoMats instance url here.`
 
 ### Anfordern der Unterstützung von Vevar Vault PromoMats
 
-Manchmal handelt es sich bei dem aufgetretenen Problem um ein Problem mit dem Betrieb der Veva Vault PromoMats-Instanz. Sollte dies der Fall sein, wird Ihr Administrator von Veeva Vault PromoMats möglicherweise angewiesen, ein Support-Ticket mit [Unterstützung von VEC](http://support.veeva.com/). Der Status der VEC-Instanz kann angezeigt werden, indem Sie zu [Veeva Trust](http://trust.veeva.com/).
+Manchmal handelt es sich bei dem aufgetretenen Problem um ein Problem mit dem Betrieb der Veva Vault PromoMats-Instanz. Sollte dies der Fall sein, kann Ihr Veva Vault PromoMats-Administrator angewiesen werden, ein Support-Ticket mit dem [VEE-Support](http://support.veeva.com/) zu erstellen. Der Status der VEE-Instanz kann durch Navigieren zu [VEA-Vertrauen](http://trust.veeva.com/) angezeigt werden.
 

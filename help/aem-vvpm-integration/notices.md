@@ -37,10 +37,10 @@ Beachten Sie bei der Verwendung dieser Integration die folgenden Einschränkunge
 * Die Integration importiert keine Inhalte von VPM in AEM.
 * Die Metadatenvalidierung wird nicht unterstützt.
 * Die Anzahl der Dokumente ist auf der Grundlage der Veeva-Lizenz begrenzt. Siehe [Lizenzbeschränkungen](#veeva-license-limitations).
-* Die Anzahl der API-Aufrufe ist auf der Grundlage der Veeva-Lizenz begrenzt. Weitere Informationen finden Sie unter [API-Einschränkungen](https://developer.veevavault.com/docs/#what-are-rate-limits). Siehe [Lizenzbeschränkungen](#veeva-license-limitations).
+* Die Anzahl der API-Aufrufe ist auf der Grundlage der Veeva-Lizenz begrenzt. Weitere Informationen finden Sie unter [API-Beschränkungen](https://developer.veevavault.com/docs/#what-are-rate-limits). Siehe [Lizenzbeschränkungen](#veeva-license-limitations).
 
 ## VEE-Lizenzbeschränkungen
 
 Sie können die Instanzbeschränkungen überwachen, indem Sie zu den allgemeinen VVPM-Einstellungen navigieren.
 
-![Veeva Limits](assets/veeva-limits.png)
+![Veeva-Beschränkungen](assets/veeva-limits.png)

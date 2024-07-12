@@ -17,13 +17,13 @@ Im folgenden Video-Beispiel wird die Verwendung des Connectors beschrieben:
 
 >[!VIDEO](https://video.tv.adobe.com/v/332137/?quality=12&learn=on)
 
-## Setup
+## Einrichtung
 
 Dieser Leitfaden führt Sie durch die Einrichtung und Ausführung des Connectors.
 
 >[!IMPORTANT]
 >
->Für jedes System müssen diese Schritte von einem **administrator** für jedes System.
+>Für jedes System müssen diese Schritte von einem **Administrator** für jedes System ausgeführt werden.
 >
 >Die Schritte in dieser Dokumentation führen Sie durch das Erstellen von Integrationen/Registrierungen, bei denen Berechtigungen und/oder Administratorzugriff zugewiesen werden müssen.  Es liegt in Ihrer Verantwortung, sicherzustellen, dass diese Schritte Ihren Unternehmensrichtlinien entsprechen, bevor Sie sie durchführen, und sie sorgfältig durchzuführen.
 >
@@ -32,22 +32,22 @@ Dieser Leitfaden führt Sie durch die Einrichtung und Ausführung des Connectors
 
 Sie erhalten Zugriff auf das Integrations-AEM-Package. Es gibt zwei Optionen zur Installation der Integration:
 
-1. **Paketinstallation** - Direkt nach vorne und weniger involviert.
+1. **Paketinstallation** - Direkt nach vorne und weniger beteiligt.
 2. **POM-Installation** - Erweiterte Funktionen, die jedoch bei der Verwendung von AEM Cloud Manager und der Aktualisierung der Integration nützlich sein können.
 
 #### Paketinstallation
 
-Um das Paket zu installieren, laden Sie es mit dem in der Onboarding-E-Mail angegebenen Link herunter. [Detaillierte Anweisungen zur Installation eines AEM-Packages finden Sie hier .](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/package-manager.html?#installing-packages)
+Um das Paket zu installieren, laden Sie es mit dem in der Onboarding-E-Mail angegebenen Link herunter. [Detaillierte Anweisungen zum Installieren eines AEM-Packages finden Sie hier.](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/package-manager.html?#installing-packages)
 
 #### POM-Installation
 
 Gehen Sie wie folgt vor, um den Connector in Ihr POM aufzunehmen. Ersetzen Sie Ihren Benutzernamen und Ihr Passwort durch die in der Onboarding-E-Mail erhaltenen.
 
-1. Fügen Sie Folgendes zum `.cloudmanager/maven/settings.xml` in Ihrem Projekt oder `~/.m2/settings.xml` auf Ihrem Computer. Ersetzen `YOUR_USERNAME` mit dem Benutzernamen und `YOUR_PASSWORD` mit dem in der Onboarding-E-Mail angegebenen Passwort.
+1. Fügen Sie Folgendes zur Datei `.cloudmanager/maven/settings.xml` in Ihrem Projekt oder `~/.m2/settings.xml` auf Ihrem Computer hinzu. Ersetzen Sie `YOUR_USERNAME` durch den Benutzernamen und `YOUR_PASSWORD` durch das in der Onboarding-E-Mail angegebene Passwort.
 
    >[!IMPORTANT]
    >
-   >Bei Verwendung von Cloud Manager besteht der sichere Ansatz darin, die hier für [kennwortgeschützte Maven-Repositorys](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/getting-access/create-application-project/setting-up-project.html?lang=en#password-protected-maven-repositories).
+   >Bei Verwendung von Cloud Manager besteht der sichere Ansatz darin, die hier für [kennwortgeschützte Maven-Repositorys](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/getting-access/create-application-project/setting-up-project.html?lang=en#password-protected-maven-repositories) beschriebenen Schritte durchzuführen.
    >
 
    ```
@@ -70,7 +70,7 @@ Gehen Sie wie folgt vor, um den Connector in Ihr POM aufzunehmen. Ersetzen Sie I
    </settings>
    ```
 
-2. Fügen Sie dem Projekt Folgendes hinzu: `pom.xml` Datei:
+2. Fügen Sie der Datei &quot;`pom.xml`&quot;des Projekts Folgendes hinzu:
 
    ```
    <project>
@@ -104,7 +104,7 @@ Gehen Sie wie folgt vor, um den Connector in Ihr POM aufzunehmen. Ersetzen Sie I
    </project>
    ```
 
-3. Fügen Sie dem Projekt Folgendes hinzu: `all/pom.xml` -Datei. Ersetzen `project.dependencies.dependency.version` mit der entsprechenden Version und `project.build.plugins.plugin.configuration.embeddeds.embedded.target` mit dem richtigen Pfad.
+3. Fügen Sie der Datei &quot;`all/pom.xml`&quot;des Projekts Folgendes hinzu. Ersetzen Sie `project.dependencies.dependency.version` durch die entsprechende Version und `project.build.plugins.plugin.configuration.embeddeds.embedded.target` durch den richtigen Pfad.
 
    ```
    <project>
@@ -156,7 +156,7 @@ Diese Integration wird konfiguriert, indem eine Cloud-Konfiguration für den Ord
 
 1. Navigieren Sie zur Konfiguration der Veeva-Cloud .
 
-   ![Navigieren Sie zur Cloud-Konfiguration .](assets/cloud-config-navigate.png)
+   ![Navigieren Sie zur Cloud-Konfiguration](assets/cloud-config-navigate.png)
 
 2. Erstellen Sie eine neue Veeva-Cloud-Konfiguration für den entsprechenden Ordner und füllen Sie die wie in den nächsten Abschnitten beschrieben aus.
 
@@ -178,11 +178,11 @@ Füllen Sie im Konfigurationstab Folgendes aus:
 
 Wenn das Projekt PDF oder Bilder für Seiten generieren muss, ist diese Registerkarte erforderlich. Füllen Sie auf der Registerkarte &quot;adobe io&quot;Folgendes aus:
 
-![Registerkarte &quot;Adobe IO&quot;](assets/adobe-io-tab.png)
+![Adobe IO-Registerkarte](assets/adobe-io-tab.png)
 
 1. Erforderlich. Der Adobe IO-Endpunkt zum Erstellen von PDF-Bildern, der in der Onboarding-E-Mail bereitgestellt wurde. (z. B. `https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/trigger-action.json`)
-2. Erforderlich. Der Aktionsname für die Generierung von Seitenbildern. Dieser Wert muss `aem-veeva-integration/get-image-async`.
-3. Erforderlich. Der Aktionsname für die HTML-Bildgenerierung. Dieser Wert muss `aem-veeva-integration/get-pdf-async-new`.
+2. Erforderlich. Der Aktionsname für die Generierung von Seitenbildern. Dieser Wert muss `aem-veeva-integration/get-image-async` sein.
+3. Erforderlich. Der Aktionsname für die HTML-Bildgenerierung. Dieser Wert muss `aem-veeva-integration/get-pdf-async-new` sein.
 4. Erforderlich. Der Adobe IO-Endpunkt zum Abrufen des Status der in der Onboarding-E-Mail bereitgestellten Generierung.(z. B. `https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/get-state-value`)
 5. Erforderlich. AEM Benutzername, der von Adobe IO verwendet werden soll. Siehe [AEM Benutzererstellung](#aem-user-creation).
 6. Erforderlich. AEM Passwort, das von Adobe IO verwendet werden soll. Siehe [AEM Benutzererstellung](#aem-user-creation).
@@ -199,7 +199,7 @@ Füllen Sie auf der Registerkarte Erweitert Folgendes aus:
 ![Erweiterte Registerkarte](assets/advanced-tab.png)
 
 1. Erforderlich für PDF/Bildgenerierung. Das beim Erstellen von PDF/Bildern verwendete Dateinamenmuster. `{name}` kann als Vorlage verwendet werden. (z. B. `{name}-screenshot`)
-2. Optional. Die Gerätetypen, für die andere Screenshots als Desktop erforderlich sind. Zu den gültigen Typen gehören `Tab (iPad)`, und `Mobile (iPhone X)`.
+2. Optional. Die Gerätetypen, für die andere Screenshots als Desktop erforderlich sind. Gültige Typen sind `Tab (iPad)` und `Mobile (iPhone X)`.
 3. Optional. Der Wert des Ausgabetyps in Veeva, der die oben dargestellte Ausgabedarstellung darstellt. (z. B. `web_ready__c`)
 4. Erforderlich für PDF/Bildgenerierung. Zu erstellender Screenshot-Typ. Entweder `PDF` oder `Image`.
 5. Erforderlich für PDF/Bildgenerierung. Der zu generierende PDF-Typ. Entweder `Print CSS Based PDF` oder `Pixel Perfect Screenshot PDF`.
@@ -228,7 +228,9 @@ b. Der genau unter eingegebene Name der Veeva-Eigenschaft ist in Veeva vorhanden
    c. Eigenschaftstyp Entweder `Text` oder `Multiline Text`.
 
 2. Erforderlich. Ordnen Sie eine Eigenschaft von Veeva AEM zu.
-a. Der genau unter eingegebene Name der Veeva-Eigenschaft ist in Veeva vorhanden. (z. B. `name__v`) b. AEM Eigenschaftsname. Aus AEM Eigenschaften auswählen. (z. B. `jcr:title`) c. Eigenschaftstyp. Entweder `Text` oder `Multiline Text`.
+a. Der genau unter eingegebene Name der Veeva-Eigenschaft ist in Veeva vorhanden. (z. B. `name__v`)
+b. AEM Eigenschaftsname. Aus AEM Eigenschaften auswählen. (z. B. `jcr:title`)
+c. Eigenschaftstyp Entweder `Text` oder `Multiline Text`.
 
 
 #### Registerkarte „Asset“
@@ -239,10 +241,13 @@ Wenn Sie Assets synchronisieren, füllen Sie auf der Registerkarte &quot;Asset&q
 
 1. Erforderlich. Ordnen Sie eine Eigenschaft von AEM zu Veeva zu.
 a. AEM Eigenschaftsname. Aus AEM Eigenschaften auswählen. (z. B. `/jcr:content/metadata/jcr:title`) `{name}` kann als Vorlage verwendet werden.
-b. Der genau unter eingegebene Name der Veeva-Eigenschaft ist in Veeva vorhanden. (z. B. `name__v`) c. Eigenschaftstyp. Entweder `Text` oder `Multiline Text`.
+b. Der genau unter eingegebene Name der Veeva-Eigenschaft ist in Veeva vorhanden. (z. B. `name__v`)
+c. Eigenschaftstyp Entweder `Text` oder `Multiline Text`.
 
 2. Erforderlich. Ordnen Sie eine Eigenschaft von Veeva AEM zu.
-a. Der genau unter eingegebene Name der Veeva-Eigenschaft ist in Veeva vorhanden. (z. B. `name__v`) b. AEM Eigenschaftsname. Aus AEM Eigenschaften auswählen. (z. B. `/jcr:content/metadata/jcr:title`) c. Eigenschaftstyp. Entweder `Text` oder `Multiline Text`.
+a. Der genau unter eingegebene Name der Veeva-Eigenschaft ist in Veeva vorhanden. (z. B. `name__v`)
+b. AEM Eigenschaftsname. Aus AEM Eigenschaften auswählen. (z. B. `/jcr:content/metadata/jcr:title`)
+c. Eigenschaftstyp Entweder `Text` oder `Multiline Text`.
 
 ### Zusätzliche Einrichtung
 
@@ -252,7 +257,7 @@ Bei der PDF/Bildgenerierung muss ein AEM Benutzer erstellt werden, um Seiten von
 
 Bei Verwendung von AEM 6.5.5+:
 
-* [Benutzer in AEM erstellen](https://experienceleague.adobe.com/docs/experience-manager-65/forms/administrator-help/setup-organize-users/adding-configuring-users.html?#create-a-user)
+* [Erstellen eines Benutzers in AEM](https://experienceleague.adobe.com/docs/experience-manager-65/forms/administrator-help/setup-organize-users/adding-configuring-users.html?#create-a-user)
 * [Hinzufügen von Berechtigungen zu einem Benutzer in AEM](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?#permissions-in-aem)
 
 Bei Verwendung von AEM Cloud Services:
@@ -275,11 +280,11 @@ Um diese Integration verwenden zu können, muss ein Benutzer in Veeva Vault erst
 
 1. Navigieren Sie zu Admin > Benutzer und Gruppen > Vault-Benutzer > Erstellen
 
-   ![Navigieren Sie zum Benutzer Veeva .](assets/veeva-user-navigate.png)
+   ![Navigieren Sie zum Benutzer Veeva](assets/veeva-user-navigate.png)
 
-2. Füllen Sie die erforderlichen Eingaben aus. Die einfachste Einrichtung besteht darin, die `License Type` nach `Full User` und `Security Profile` nach `Vault Owner`. Speichern Sie nach Abschluss.
+2. Füllen Sie die erforderlichen Eingaben aus. Die einfachste Einrichtung besteht darin, die `License Type` auf `Full User` und die `Security Profile` auf `Vault Owner` festzulegen. Speichern Sie nach Abschluss.
 
-   ![Erstellen von eVEC-Benutzern](assets/veeva-user-create.png)
+   ![VEC-Benutzer erstellen](assets/veeva-user-create.png)
 
 Die folgenden Berechtigungen sind für die jeweiligen verwendeten Veeva-Dokumenttypen erforderlich:
 
