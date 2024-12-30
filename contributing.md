@@ -7,7 +7,7 @@ ht-degree: 95%
 ---
 # Beiträge zur Adobe Experience Manager-Dokumentation
 
-Vielen Dank, dass Sie sich entschieden haben, zur Adobe Consulting Services-Dokumentation beizutragen! Wir freuen uns über Inhaltsbeiträge unserer gesamten Reader-Community sowie unserer Kollegen von Adobe.
+Vielen Dank, dass Sie zur Dokumentation zu Adobe Consulting Services beitragen möchten! Wir freuen uns über Inhaltsbeiträge unserer gesamten Reader-Community sowie unserer Kollegen von Adobe.
 
 In dieser Datei wird beschrieben, wie Sie Beiträge beisteuern können und welche Richtlinien zu befolgen sind, wenn Sie Ihre Beiträge vornehmen.
 
@@ -17,11 +17,11 @@ Dieses Projekt folgt dem [Adobe Open Source-Verhaltenskodex](code-of-conduct.md)
 
 ## Richtlinien für Beiträge
 
-Wir freuen uns zwar über jeden Beitrag, um die AEM-Dokumentation zu verbessern, bitten jedoch darum, dass die Beiträge möglichst bestimmten Richtlinien und Standards entsprechen. Lesen Sie die [Richtlinien für Beiträge zur ACS-Dokumentation](guidelines.md) für weitere Informationen.
+Wir freuen uns zwar über jeden Beitrag, um die AEM-Dokumentation zu verbessern, bitten jedoch darum, dass die Beiträge möglichst bestimmten Richtlinien und Standards entsprechen. Weitere Informationen finden Sie in den [Richtlinien für Beiträge zur ACS](guidelines.md)Dokumentation.
 
 ## So können Sie einen Beitrag leisten
 
-Wir möchten es Ihnen so einfach wie möglich machen, Ihre Beiträge einzureichen. Es gibt zwei Möglichkeiten:
+Wir möchten es Ihnen so einfach wie möglich machen, Ihre Beiträge einzureichen. Sie können auf zwei Arten beitragen:
 
 * [Erstellen eines Problems](#create-an-issue)
 * [Erstellen einer Pull-Anfrage](#create-a-pull-request)

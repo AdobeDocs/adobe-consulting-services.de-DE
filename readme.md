@@ -7,7 +7,7 @@ ht-degree: 74%
 ---
 # Adobe Consulting Services
 
-Dies ist das Repository für die Dokumentation für AEM Lösungen, die von Adobe Consulting Services (ACS) erstellt und gepflegt werden.
+Dies ist das Repository für die Dokumentation für AEM-Lösungen, die von Adobe Consulting Services (ACS) erstellt und gepflegt werden.
 
 Ihre Beiträge zur Dokumentation sind willkommen. Sehen Sie sich die folgenden Ressourcen an:
 

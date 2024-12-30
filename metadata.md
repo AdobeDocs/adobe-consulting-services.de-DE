@@ -1,7 +1,7 @@
 ---
 product: adobe experience manager
 solution: Experience Manager
-description: Experience Manager-Dokumentation besuchen
+description: Consulting Experience Manager-Dokumentation
 type: Documentation
 git-repo: https://github.com/AdobeDocs/adobe-consulting-services.de-DE
 index: y
@@ -15,7 +15,7 @@ ht-degree: 54%
 
 # Metadaten für die interne Verwendung
 
-Metadaten im GitHub-Authoring-System sind hierarchisch aufgebaut und werden in den folgenden zunehmenden Präzedenzebenen definiert.
+Metadaten im GitHub-Authoring-System sind hierarchisch und werden in den folgenden zunehmenden Präzedenzfällen definiert.
 
 1. metadata.md
 1. IHV
@@ -39,4 +39,4 @@ Artikel
 * `title`
 * `description`
 
-Weitere Informationen zu den Metadaten finden Sie im Abschnitt [Internes Authoring-Handbuch](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html).
+Weitere Informationen zu den Metadaten finden Sie im [internen Authoring-Handbuch](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html).

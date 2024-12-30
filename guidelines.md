@@ -5,17 +5,17 @@ source-wordcount: '740'
 ht-degree: 75%
 
 ---
-# Richtlinien für die Teilnahme an der Dokumentation zu Adobe Consulting Services
+# Richtlinien für Beiträge zur Adobe Consulting Services-Dokumentation
 
 ## Dokumentationsphilosophie
 
-Wir wissen, dass Benutzer von Adobe Experience Manager in extrem wettbewerbsorientierten Umgebungen arbeiten, um digitale Erlebnisse zu erstellen, die sie von ihren Wettbewerbern abheben. Daher ist es wichtig, dass ACS bei der Bereitstellung erweiterter neuer Tools für die AEM diese Tools durch genaue und klare Dokumentation ergänzt werden, damit der Kunde sofort seine AEM Investition nutzen und den ROI maximieren kann.
+Wir wissen, dass Benutzer von Adobe Experience Manager in extrem wettbewerbsorientierten Umgebungen arbeiten, um digitale Erlebnisse zu erstellen, die sie von ihren Wettbewerbern abheben. Wenn ACS fortschrittliche neue Tools für AEM bereitstellt, müssen diese unbedingt durch genaue und klare Dokumentation ergänzt werden, damit der Kunde sofort seine AEM-Investitionen nutzen und den ROI maximieren kann.
 
-Ziel der ACS-Dokumentation ist es, AEM Benutzern so bald wie möglich die Dokumentation zur Verfügung zu stellen. Daher steht bei uns eine genaue und nutzbare Dokumentation im Vordergrund und wir bemühen uns ständig um eine aktualisierte und bessere Dokumentation.
+Ziel der ACS-Dokumentation ist es, AEM-Anwender schnellstmöglich mit der Dokumentation vertraut zu machen. Daher steht bei uns eine genaue und nutzbare Dokumentation im Vordergrund und wir bemühen uns ständig um eine aktualisierte und bessere Dokumentation.
 
 ## Beiträge zur Dokumentation
 
-Um die ACS-Dokumentation laufend zu verbessern, ist die gesamte Community von AEM-Benutzern willkommen, zur Dokumentation beizutragen. Sei es durch Pull-Anfragen oder Probleme, bei den Verbesserungen der Dokumentation kann es sich um Korrekturen, Klarstellungen, Erweiterungen und weitere Beispiele handeln.
+Im Interesse einer kontinuierlichen Verbesserung der ACS-Dokumentation ist die gesamte Community von AEM-Benutzenden herzlich eingeladen, zur Dokumentation beizutragen. Sei es durch Pull-Anfragen oder Probleme, bei den Verbesserungen der Dokumentation kann es sich um Korrekturen, Klarstellungen, Erweiterungen und weitere Beispiele handeln.
 
 ## Dokumentationsstandards
 
@@ -25,21 +25,21 @@ Beiträge, die diesen Standards nicht entsprechen, können abgelehnt werden.
 
 ### Wir nutzen für die Dokumentation Standard-Anwendungsfälle.
 
-Die ACS-Dokumentation umfasst Standard-Anwendungsfälle. Anwendungsfälle, die über den Umfang der Standardinstallation und -nutzung des Produkts hinausgehen, sind nicht Teil der ACS-Dokumentation.
+Die ACS-Dokumentation deckt Standard-Anwendungsfälle ab. Anwendungsfälle, die über den Umfang der standardmäßigen Installation und Verwendung des Produkts hinausgehen, sind nicht Teil der ACS-Dokumentation.
 
 ### Wir dokumentieren üblicherweise keine Fehler oder ihre Umgehungslösungen.
 
-Die ACS-Dokumentation umfasst Standard-Anwendungsfälle. Aus diesem Grund werden Fehler, durch Fehler verursachte Effekte und Problemumgehungen normalerweise nicht dokumentiert.
+Die ACS-Dokumentation deckt Standard-Anwendungsfälle ab. Aus diesem Grund werden Fehler, durch Fehler verursachte Effekte und Problemumgehungen normalerweise nicht dokumentiert.
 
 Ausnahmen gelten für die Versionshinweise, in denen bekannte Probleme mit möglichen Lösungen aufgelistet werden können, die vom AEM Product Management genehmigt wurden.
 
-### Dokumentationsbeiträge sind nicht zur Beantwortung technischer Fragen geeignet.
+### Dokumentationsbeiträge sind nicht zur Beantwortung technischer Fragen gedacht.
 
-Alle Ideen, die Sie möglicherweise zur Verbesserung der ACS-Dokumentation haben, sind als Beiträge willkommen. Kommentare, Probleme und Pull-Anfragen sind jedoch nur für *Beiträge* vorgesehen. Sie sind nicht zur Beantwortung Ihrer Fragen über die Verwendung von AEM, Implementierung Ihres AEM-Projekts oder zur Lösung technischer Probleme gedacht.
+Alle Ideen zur Verbesserung der ACS-Dokumentation sind als Beiträge willkommen. Kommentare, Probleme und Pull-Anfragen sind jedoch nur für *Beiträge* vorgesehen. Sie sind nicht zur Beantwortung Ihrer Fragen über die Verwendung von AEM, Implementierung Ihres AEM-Projekts oder zur Lösung technischer Probleme gedacht.
 
 Fragen zur Verwendung von AEM oder zu technischen Fehlern, die möglicherweise bei Ihnen auftreten, sollten entsprechend dem herkömmlichen Support-Vorgang über das [Enterprise-Support-Portal für Experience Cloud](https://helpx.adobe.com/de/contact/enterprise-support.ec.html) gemeldet oder in der [Experience Manager-Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager) diskutiert werden.
 
-***ACS-Dokumentationsbeiträge sind kein Ersatz für die Adobe-Kundenunterstützung*** und Beiträge, die Antworten auf Supportfragen suchen, werden abgelehnt.
+***ACS-Dokumentationsbeiträge sind kein Ersatz für die Adobe-Kundenunterstützung*** und Beiträge, die um Antwort auf Support-Fragen bitten, werden abgelehnt.
 
 ### Die Beiträge müssen sich eindeutig auf die betroffenen Dokumentationsseiten beziehen.
 
@@ -57,11 +57,11 @@ Durch das Befolgen dieser Richtlinien erleichtern Sie die Überprüfung Ihres Be
 
 #### Sprache
 
-* Die ACS-Dokumentation wird in englischer Sprache verfasst und verwaltet.
+* Die ACS-Dokumentation wird in englischer Sprache verfasst und gepflegt.
 * Ausdrücke sollten so einfach wie möglich sein.
 * Drücken Sie sich klar und bündig aus.
 
-Denken Sie daran, dass die Leser der ACS-Dokumentation weltweit sind und nicht erwartet werden können, dass sie fließend Englisch beherrschen oder Muttersprachler sind. Vermeiden Sie umgangssprachliche Wendungen und verwenden Sie eine klare und einfache Sprache wie möglich.
+Denken Sie daran, dass die Leser der ACS-Dokumentation auf der ganzen Welt zu finden sind und von ihnen nicht erwartet werden kann, dass sie fließend Englisch beherrschen oder Muttersprachler sind. Vermeiden Sie umgangssprachliche Wendungen und verwenden Sie eine klare und einfache Sprache wie möglich.
 
 #### Befolgen Sie das Stil-Handbuch von Microsoft.
 
