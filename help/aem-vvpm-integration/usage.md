@@ -47,7 +47,7 @@ Gehen Sie wie folgt vor, um den Connector in Ihr POM aufzunehmen. Ersetzen Sie I
 
    >[!IMPORTANT]
    >
-   >Wenn Sie Cloud Manager verwenden, besteht der sichere Ansatz darin, die hier für kennwortgeschützte Maven[Repositorys beschriebenen Schritte ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/getting-access/create-application-project/setting-up-project.html?lang=de#password-protected-maven-repositories).
+   >Wenn Sie Cloud Manager verwenden, besteht der sichere Ansatz darin, die hier für kennwortgeschützte Maven[Repositorys beschriebenen Schritte &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/getting-access/create-application-project/setting-up-project.html?lang=de#password-protected-maven-repositories).
    >
 
    ```
@@ -262,7 +262,7 @@ Bei Verwendung von AEM 6.5.5+:
 
 Bei Verwendung von AEM-Cloud Services:
 
-* [Verwalten von Benutzenden mit AEM-Cloud Services ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=de&#accessing)
+* [Verwalten von Benutzenden mit AEM-Cloud Services &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=de&#accessing)
 
 Die folgenden Berechtigungen sind für den AEM-Service-Benutzer für den Inhalt erforderlich, der in PDF/Image konvertiert und an Veeva gesendet wird:
 
