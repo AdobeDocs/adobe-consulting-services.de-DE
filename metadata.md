@@ -1,11 +1,12 @@
 ---
 product: adobe experience manager
 solution: Experience Manager
-description: Consulting Experience Manager-Dokumentation
+description: Lesen der Dokumentation zu Experience Manager
 type: Documentation
-git-repo: https://github.com/AdobeDocs/adobe-consulting-services.de-DE
+git-repo: https://github.com/Adobe-Enterprise-Docs/adobe-consulting-services.de-DE
 index: y
-source-git-commit: e2dac4b36fb94d72b72ef6f73a77e3f566539444
+hide: n
+source-git-commit: d36298f9c8abf2859e2a8fc9be92d2fcae8d60cf
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 54%
