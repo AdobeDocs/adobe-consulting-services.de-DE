@@ -2,7 +2,7 @@
 title: Veeva Vault-Integration - Übersicht
 description: Veeva Vault-Integration - Übersicht
 exl-id: 52cc7290-b7e1-4476-877f-48934e6daf68
-source-git-commit: 2e47baa4a255c34b3ca0b8631650dd5d8960fea8
+source-git-commit: b024e4295b5b37030c1524342832400c279c650a
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -38,17 +38,17 @@ Diese Integration unterstützt zwei Hauptanwendungsfälle:
 Zu den Vorteilen gehören:
 
 * Beibehaltung einer zentralen Datenquelle für Assets und Inhalte ohne Duplizierung in allen digitalen Repositorys.
-* Nutzung von Veeva Vault für Rechte- und Compliance-Management und AEM für optimale Asset- und Inhaltserstellung/-bereitstellung.
+* Nutzung von Veeva Vault für die Rechte- und Compliance-Verwaltung und AEM für optimale Asset- und Inhaltserstellung/-bereitstellung.
 * Ermöglicht die Automatisierung des Verschiebens von Inhalten und Metadaten zwischen AEM und Veeva Vault.
 * Reduziert den manuellen Aufwand beim Senden von Inhalten zur Genehmigung von Workflows an Veeva.
 * Jedes System wird aufgrund seiner Stärken verwendet, und der Connector hilft beim automatischen Verschieben von Inhalten zwischen den Systemen, um die Markteinführungszeit zu beschleunigen.
 
 Was bewirkt die Integration?
 
-* Unterstützt das Senden von AEM-Site-Seiten, Assets, Inhaltsfragmenten und Experience Fragments an VPM. AEM-Seiten, Inhaltsfragmente und Experience Fragments können als Screenshot-PDF oder -Bilder gesendet werden. AEM Assets-Binärdateien werden unverändert gesendet.
+* Unterstützt das Senden von AEM-Website-Seiten, Assets, Inhaltsfragmenten und Experience Fragments an VPM. AEM-Seiten, Inhaltsfragmente und Experience Fragments können als Screenshot-PDFs oder -Bilder gesendet werden. AEM Assets-Binärdateien werden unverändert gesendet.
 * Unterstützt die manuelle und automatisierte Synchronisierung ausgewählter Metadatenelemente, die von AEM zu VPM konfigurierbar sind.
 * Unterstützt die manuelle und automatisierte Synchronisierung ausgewählter Metadatenelemente, die von VPM zu AEM konfigurierbar sind.
-* Unterstützt Beziehungen zwischen AEM-Site-Seiten, Assets, Inhaltsfragmenten und Experience Fragments in VPM, um Inhaltsbeziehungen zu automatisieren.
+* Unterstützt Beziehungen zwischen AEM Site-Seiten, Assets, Inhaltsfragmenten und Experience Fragments in VPM, um Inhaltsbeziehungen zu automatisieren.
 * Unterstützt die Generierung von Ausgabedarstellungen für mehrere Gerätetypen.
 
 >[!NOTE]
@@ -60,7 +60,7 @@ Was tut der Connector NICHT?
 
 * Repliziert keine AEM-Prozesse und -Funktionen in Veeva oder umgekehrt.
 * Macht MLR nicht von selbst. Es hilft bei der Automatisierung des Versands von Inhalten an Veeva, wo MLR geschieht.
-* Darf nicht verwendet werden, um ein identisches Setup zwischen AEM und Veeva zu erstellen. Nicht alle Inhalte müssen zwischen den beiden Plattformen verschoben werden.
+* Darf nicht zum Erstellen eines identischen Setups zwischen AEM und Veeva verwendet werden. Nicht alle Inhalte müssen zwischen den beiden Plattformen verschoben werden.
 
 
 >[!IMPORTANT]
@@ -73,7 +73,7 @@ Um diese Integration bereitzustellen, müssen Sie die folgenden Schritte ausfüh
 
 Bitte folgen Sie den unten stehenden Details zum Flussdiagramm und Flussdiagramm, um die Integration anzufordern und zu konfigurieren.
 
-![Zugriff anfordern](assets/integration-request.png)
+![Anfordern von Zugriff](assets/integration-request.png)
 
 Flussdiagramm-Details (den oben genannten Schritten zugeordnet):
 
@@ -98,5 +98,4 @@ Support-Tickets können bei der Adobe-Kundenunterstützung protokolliert werden.
 
 ### Veeva Vault PromoMats-Support anfordern
 
-Manchmal ist das Problem, das beim Betrieb der Veeva Vault PromoMats-Instanz auftritt, ein Problem. In diesem Fall wird Ihr Administrator von Veeva Vault PromoMats möglicherweise aufgefordert, ein Support-Ticket bei „Veeva Support[&#x200B; zu &#x200B;](http://support.veeva.com/). Der Status der Veeva-Instanz kann durch Navigieren zu [Veeva Trust](http://trust.veeva.com/) angezeigt werden.
-
+Manchmal ist das Problem, das beim Betrieb der Veeva Vault PromoMats-Instanz auftritt, ein Problem. In diesem Fall wird Ihr Administrator von Veeva Vault PromoMats möglicherweise aufgefordert, ein Support-Ticket bei „Veeva Support[ zu ](http://support.veeva.com/). Der Status der Veeva-Instanz kann durch Navigieren zu [Veeva Trust](http://trust.veeva.com/) angezeigt werden.
