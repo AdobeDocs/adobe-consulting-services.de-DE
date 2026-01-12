@@ -47,7 +47,7 @@ Gehen Sie wie folgt vor, um den Connector in Ihr POM aufzunehmen. Ersetzen Sie I
 
    >[!IMPORTANT]
    >
-   >Wenn Sie Cloud Manager verwenden, besteht der sichere Ansatz darin, die hier für kennwortgeschützte Maven[Repositorys beschriebenen Schritte ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/getting-access/create-application-project/setting-up-project.html?lang=en#password-protected-maven-repositories).
+   >Wenn Sie Cloud Manager verwenden, besteht der sichere Ansatz darin, die hier für kennwortgeschützte Maven[Repositorys beschriebenen Schritte &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/getting-access/create-application-project/setting-up-project.html?lang=en#password-protected-maven-repositories).
 
    ```
    <settings>
