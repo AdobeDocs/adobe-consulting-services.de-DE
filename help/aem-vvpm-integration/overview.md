@@ -98,4 +98,4 @@ Support-Tickets können bei der Adobe-Kundenunterstützung protokolliert werden.
 
 ### Veeva Vault PromoMats-Support anfordern
 
-Manchmal ist das Problem, das beim Betrieb der Veeva Vault PromoMats-Instanz auftritt, ein Problem. In diesem Fall wird Ihr Administrator von Veeva Vault PromoMats möglicherweise aufgefordert, ein Support-Ticket bei „Veeva Support[ zu ](http://support.veeva.com/). Der Status der Veeva-Instanz kann durch Navigieren zu [Veeva Trust](http://trust.veeva.com/) angezeigt werden.
+Manchmal ist das Problem, das beim Betrieb der Veeva Vault PromoMats-Instanz auftritt, ein Problem. In diesem Fall wird Ihr Administrator von Veeva Vault PromoMats möglicherweise aufgefordert, ein Support-Ticket bei „Veeva Support[&#x200B; zu &#x200B;](http://support.veeva.com/). Der Status der Veeva-Instanz kann durch Navigieren zu [Veeva Trust](http://trust.veeva.com/) angezeigt werden.
