@@ -3,13 +3,12 @@ product: adobe experience manager
 solution: Experience Manager
 description: Lesen der Dokumentation zu Experience Manager
 type: Documentation
-git-repo: https://github.com/Adobe-Enterprise-Docs/adobe-consulting-services.de-DE
-index: y
-author: Anon
-source-git-commit: ac36c3ae49021c2b66234c8664df0969995aba62
+git-repo: https://github.com/AdobeDocs/adobe-consulting-services.en
+index: true
+source-git-commit: f491b48a151904f13becc146beab52600c9cef46
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 54%
+source-wordcount: '94'
+ht-degree: 2%
 
 ---
 
@@ -19,10 +18,10 @@ ht-degree: 54%
 Metadaten im GitHub-Authoring-System sind hierarchisch und werden in den folgenden zunehmenden Präzedenzfällen definiert.
 
 1. metadata.md
-1. IHV
+1. toC
 1. Artikel
 
-Die in der Datei „metadata.md“ definierten Metadaten gelten für den gesamten Bericht, können jedoch auf der IHV- (ToC) und der Artikelebene überschrieben werden. Das Überschreiben der Metadaten sollte auf der niedrigstmöglichen Ebene erfolgen.
+Metadaten, die in der Datei „metadata.md“ definiert sind, gelten für das gesamte Repository, können jedoch auf der Inhaltsverzeichnis- und Artikelebene überschrieben werden. Jede Überschreibung der Metadaten sollte auf der niedrigstmöglichen Ebene erfolgen.
 
 metadata.md
 
@@ -30,7 +29,7 @@ metadata.md
 * `git-repo`
 * `index: y`
 
-IHVs
+toCS
 
 * `sub-product`
 * `user-guide-title`
