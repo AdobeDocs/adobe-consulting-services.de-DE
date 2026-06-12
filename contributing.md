@@ -13,7 +13,7 @@ In dieser Datei wird beschrieben, wie Sie einen Beitrag leisten können, und es 
 
 ## Adobe Open Source-Verhaltenskodex
 
-Dieses Projekt hat den [Open Source-Verhaltenskodex für Adobe ](code-of-conduct.md). Mit Ihrer Teilnahme an der Dokumentation zu AEM erklären Sie sich damit einverstanden, diesen Verhaltenskodex einzuhalten. Bitte melden Sie inakzeptables Verhalten an [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Dieses Projekt hat den [Open Source-Verhaltenskodex für Adobe &#x200B;](code-of-conduct.md). Mit Ihrer Teilnahme an der Dokumentation zu AEM erklären Sie sich damit einverstanden, diesen Verhaltenskodex einzuhalten. Bitte melden Sie inakzeptables Verhalten an [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Richtlinien für Beiträge
 
@@ -42,7 +42,7 @@ Mithilfe von Problemen können Sie Ihre Verbesserungsidee für Dokumente einfach
 
 Wenn Sie ein Problem sehen und genau wissen, wie es behoben werden kann, sollten Sie eine Pull-Anfrage erstellen. Mithilfe von Pull-Anfragen können Sie Ihre eigenen Änderungen an der Dokumentation vornehmen, die dann von einem Mitglied des AEM Docs Teams zur Aufnahme geprüft werden. Klicken Sie einfach oben **rechten Navigationsbereich auf einer beliebigen Seite auf den Link Diese Seite bearbeiten**, um Ihre vorgeschlagenen Änderungen vorzunehmen und die Pull-Anfrage zu erstellen.
 
-Allen Pull-Anforderungen muss eine unterzeichnete Lizenzvereinbarung [ Mitwirkende oder CLA beigefügt sein](https://opensource.adobe.com/cla.html)  Dadurch erhält Adobe die Erlaubnis, Ihre Beiträge im Rahmen des Projekts zu verteilen. Sie müssen nur einmal eine Adobe-Lizenzvereinbarung für Mitarbeiter einreichen. Wenn Sie also bereits eine gesendet haben, können Sie loslegen.
+Allen Pull-Anforderungen muss eine unterzeichnete Lizenzvereinbarung [&#x200B; Mitwirkende oder CLA beigefügt sein](https://opensource.adobe.com/cla.html)  Dadurch erhält Adobe die Erlaubnis, Ihre Beiträge im Rahmen des Projekts zu verteilen. Sie müssen nur einmal eine Adobe-Lizenzvereinbarung für Mitarbeiter einreichen. Wenn Sie also bereits eine gesendet haben, können Sie loslegen.
 
 ### Schnelle Videoeinführung
 
@@ -58,4 +58,4 @@ Wir freuen uns natürlich über jeden Beitrag und werden Ihren Beitrag überprü
 
 ## Weiterführende Informationen
 
-Weitere Informationen zur Verwendung der GitHub-Autorenplattform ](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) Sie im Adobe-Handbuch für Mitwirkende an Dokumenten .[
+Weitere Informationen zur Verwendung der GitHub-Autorenplattform [&#128279;](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) Sie im Adobe-Handbuch für Mitwirkende an Dokumenten .
