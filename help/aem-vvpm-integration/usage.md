@@ -2,13 +2,14 @@
 title: Veeva Vault-Integrationsverwendung
 description: Veeva Vault-Integrationsverwendung
 exl-id: efff7af1-eb25-4a1d-b7ef-52e3336970ff
-source-git-commit: b4261448e34cdcee9c28410a9d3cd8dbcc9212fa
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 02aa1622ee171cd56ec9cdeb6bdef04b5d5464b5
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 5%
-
+source-wordcount: '1364'
+ht-degree: 9%
 ---
-
 # Nutzung der Integration
 
 ## Anleitung
@@ -37,7 +38,7 @@ Sie erhalten Zugriff auf das Integrations-AEM-Paket. Es gibt zwei Möglichkeiten
 
 #### Package-Installation
 
-Um das Paket zu installieren, laden Sie es mit dem Link in der Onboarding-E-Mail herunter. [Detaillierte Anweisungen zum Installieren eines AEM-Pakets finden Sie hier.](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/package-manager.html?lang=de&#installing-packages)
+Um das Paket zu installieren, laden Sie es mit dem Link in der Onboarding-E-Mail herunter. [Detaillierte Anweisungen zum Installieren eines AEM-Pakets finden Sie hier.](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/package-manager.html?#installing-packages)
 
 #### POM-Installation
 
@@ -47,7 +48,7 @@ Gehen Sie wie folgt vor, um den Connector in Ihr POM aufzunehmen. Ersetzen Sie I
 
    >[!IMPORTANT]
    >
-   >Wenn Sie Cloud Manager verwenden, besteht der sichere Ansatz darin, die hier für kennwortgeschützte Maven[Repositorys beschriebenen Schritte &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/getting-access/create-application-project/setting-up-project.html?lang=de#password-protected-maven-repositories).
+   >Wenn Sie Cloud Manager verwenden, besteht der sichere Ansatz darin, die hier für kennwortgeschützte Maven[Repositorys beschriebenen Schritte ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/getting-access/create-application-project/setting-up-project.html?lang=en#password-protected-maven-repositories).
 
    ```
    <settings>
@@ -167,9 +168,9 @@ Füllen Sie auf der Registerkarte Konfiguration Folgendes aus:
 
 ![Registerkarte „Konfiguration“](assets/configuration-tab.png)
 
-1. Erforderlich. Titel der Connector-Konfiguration für Veeva Vault. Dies kann ein beliebiger Wert sein. (z. B. `Veeva Vault Configuration`)
+1. Erforderlich. Titel der Connector-Konfiguration für Veeva Vault. Dies kann ein beliebiger Wert sein. (e.g. `Veeva Vault Configuration`)
 2. Erforderlich. Die Domain-URL der Veeva-Instanz (z. B. `https://my-instance.veevavault.com/`)
-3. Erforderlich. ClientID zum Aufrufen der Veeva Vault-API erforderlich. Dies kann ein beliebiger Wert sein und wird hauptsächlich zum Debugging verwendet. (z. B. `adobe-aem-vvtechpartner`)
+3. Erforderlich. ClientID zum Aufrufen der Veeva Vault-API erforderlich. Dies kann ein beliebiger Wert sein und wird hauptsächlich zum Debugging verwendet. (e.g. `adobe-aem-vvtechpartner`)
 4. Erforderlich. Veeva Vault-Benutzername. Siehe [Veeva-Benutzererstellung](#veeva-user-creation).
 5. Erforderlich. Veeva Vault-Kennwort. Siehe [Veeva-Benutzererstellung](#veeva-user-creation).
 
@@ -179,10 +180,10 @@ Wenn das Projekt PDFs oder Bilder für Seiten generieren muss, ist diese Registe
 
 Registerkarte ![Adobe IO](assets/adobe-io-tab.png)
 
-1. Erforderlich. Der Adobe IO-Endpunkt zum Erstellen von PDF-Bildern, der in der Onboarding-E-Mail bereitgestellt wurde. (z. B. `https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/trigger-action.json`)
+1. Erforderlich. Der Adobe IO-Endpunkt zum Erstellen von PDF-Bildern, der in der Onboarding-E-Mail bereitgestellt wurde. (e.g. `https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/trigger-action.json`)
 2. Erforderlich. Der Aktionsname für die Erstellung des Seitenbilds. Dieser Wert muss `aem-veeva-integration/get-image-async` sein.
 3. Erforderlich. Der Aktionsname für die Erstellung von HTML-Bildern. Dieser Wert muss `aem-veeva-integration/get-pdf-async-new` sein.
-4. Erforderlich. Der Adobe IO-Endpunkt , um den Status der Generierung abzurufen, die in der Onboarding-E-Mail bereitgestellt wurde.(z. B. `https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/get-state-value`)
+4. Erforderlich. Der Adobe IO-Endpunkt , um den Status der Generierung abzurufen, die in der Onboarding-E-Mail bereitgestellt wurde. (z. B. `https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/get-state-value`)
 5. Erforderlich. AEM-Benutzername zur Verwendung durch Adobe IO. Siehe [AEM-Benutzererstellung](#aem-user-creation).
 6. Erforderlich. Von Adobe IO zu verwendendes AEM-Passwort Siehe [AEM-Benutzererstellung](#aem-user-creation).
 7. Optional. Die standardmäßige Zeitüberschreitung besteht darin, die Seite bis zu einem bestimmten Zeitpunkt reagieren zu lassen, nach dem der AIO-Service keine Antwort mehr abrufen möchte. Der Standardwert ist `30000`.
@@ -197,16 +198,16 @@ Füllen Sie auf der Registerkarte Erweitert Folgendes aus:
 
 ![Registerkarte Erweitert](assets/advanced-tab.png)
 
-1. Erforderlich für die PDF-/Bildgenerierung. Das beim Erstellen von PDFs/Bildern verwendete Dateinamenmuster. `{name}` können als Vorlage verwendet werden. (z. B. `{name}-screenshot`)
+1. Erforderlich für die PDF-/Bildgenerierung. Das beim Erstellen von PDFs/Bildern verwendete Dateinamenmuster. `{name}` können als Vorlage verwendet werden. (e.g. `{name}-screenshot`)
 2. Optional. Die Gerätetypen, für die Seiten-Screenshots außer Desktop erforderlich sind. Gültige Typen sind `Tab (iPad)` und `Mobile (iPhone X)`.
-3. Optional. Der Wert für den Ausgabedarstellungstyp in Veeva, der die obige Ausgabedarstellung darstellt. (z. B. `web_ready__c`)
+3. Optional. Der Wert für den Ausgabedarstellungstyp in Veeva, der die obige Ausgabedarstellung darstellt. (e.g. `web_ready__c`)
 4. Erforderlich für die PDF-/Bildgenerierung. Typ des zu erstellenden Screenshots Entweder `PDF` oder `Image`
 5. Erforderlich für die PDF-/Bildgenerierung. Der zu generierende PDF-Typ. Entweder `Print CSS Based PDF` oder `Pixel Perfect Screenshot PDF`
 6. Erforderlich für die PDF-/Bildgenerierung. Der zu erzeugende Bildtyp. Entweder `PNG` oder `JPEG`
 7. Erforderlich. Workflow, der ausgeführt werden soll, sobald der Veeva-Vault-Genehmigungs-Trigger durchlaufen wurde.
-8. Erforderlich. Wert der Statuseigenschaft, der „Genehmigt“ darstellt. (z. B. `Approved for Distribution`)
+8. Erforderlich. Wert der Statuseigenschaft, der „Genehmigt“ darstellt. (e.g. `Approved for Distribution`)
 9. Erforderlich. Workflow, der ausgeführt werden soll, sobald der Veeva-Vault-Ablehnungs-Trigger durchgekommen ist.
-10. Erforderlich. Wert der Statuseigenschaft, der „Abgelehnt/Nicht genehmigt“ darstellt. (z. B. `Rejected`)
+10. Erforderlich. Wert der Statuseigenschaft, der „Abgelehnt/Nicht genehmigt“ darstellt. (e.g. `Rejected`)
 11. Optional. Eigenschaftsname für Dokument-ID in Veeva Vault. Der Standardwert ist `id`.
 12. Optional. Eigenschaftsname für Status in Veeva Vault. Der Standardwert ist `status__v`.
 13. Optional. Eigenschaftsname für Änderungsdatum des Dokuments Der Standardwert ist `version_modified_date__v`.
@@ -222,14 +223,14 @@ Wenn Sie Seiten synchronisieren, füllen Sie Folgendes auf der Registerkarte Sei
 ![Registerkarte „Seite“](assets/page-tab.png)
 
 1. Erforderlich. Ordnen Sie eine Eigenschaft von AEM nach Veeva zu.
-A. AEM-Eigenschaftsname. Aus AEM-Eigenschaften auswählbar. (z. B. `jcr:title`) `{name}` können als Vorlage verwendet werden.
-b. Veeva Eigenschaftsname, der genau unter eingegeben wurde, existiert in Veeva. (z. B. `name__v`)\
-   c. Eigenschaftstyp. Entweder `Text` oder `Multiline Text`
+a. AEM-Eigenschaftsname. Aus AEM-Eigenschaften auswählbar. (z. B. `jcr:title`) `{name}` können als Vorlage verwendet werden.
+B. Der unter eingegebene Veeva-Eigenschaftsname existiert in Veeva. (e.g. `name__v`)\
+   C. Eigenschaftstyp. Entweder `Text` oder `Multiline Text`
 
 2. Erforderlich. Ordnen Sie eine Eigenschaft von Veeva nach AEM zu.
-a. Der unter genau eingegebene Veeva-Eigenschaftsname existiert in Veeva. (z. B. `name__v`)
-B. AEM-Eigenschaftsname. Aus AEM-Eigenschaften auswählbar. (z. B. `jcr:title`)
-c. Eigenschaftstyp. Entweder `Text` oder `Multiline Text`
+a. Der unter eingegebene Veeva-Eigenschaftsname existiert in Veeva. (e.g. `name__v`)
+B. AEM-Eigenschaftsname. Aus AEM-Eigenschaften auswählbar. (e.g. `jcr:title`)
+C. Eigenschaftstyp. Entweder `Text` oder `Multiline Text`
 
 
 #### Registerkarte „Asset“
@@ -239,14 +240,14 @@ Wenn Sie Assets synchronisieren, füllen Sie Folgendes auf der Registerkarte Ass
 ![Registerkarte „Asset“](assets/asset-tab.png)
 
 1. Erforderlich. Ordnen Sie eine Eigenschaft von AEM nach Veeva zu.
-A. AEM-Eigenschaftsname. Aus AEM-Eigenschaften auswählbar. (z. B. `/jcr:content/metadata/jcr:title`) `{name}` können als Vorlage verwendet werden.
-b. Veeva Eigenschaftsname, der genau unter eingegeben wurde, existiert in Veeva. (z. B. `name__v`)
-c. Eigenschaftstyp. Entweder `Text` oder `Multiline Text`
+a. AEM-Eigenschaftsname. Aus AEM-Eigenschaften auswählbar. (z. B. `/jcr:content/metadata/jcr:title`) `{name}` können als Vorlage verwendet werden.
+B. Der unter eingegebene Veeva-Eigenschaftsname existiert in Veeva. (e.g. `name__v`)
+C. Eigenschaftstyp. Entweder `Text` oder `Multiline Text`
 
 2. Erforderlich. Ordnen Sie eine Eigenschaft von Veeva nach AEM zu.
-a. Der unter genau eingegebene Veeva-Eigenschaftsname existiert in Veeva. (z. B. `name__v`)
-B. AEM-Eigenschaftsname. Aus AEM-Eigenschaften auswählbar. (z. B. `/jcr:content/metadata/jcr:title`)
-c. Eigenschaftstyp. Entweder `Text` oder `Multiline Text`
+a. Der unter eingegebene Veeva-Eigenschaftsname existiert in Veeva. (e.g. `name__v`)
+B. AEM-Eigenschaftsname. Aus AEM-Eigenschaften auswählbar. (e.g. `/jcr:content/metadata/jcr:title`)
+C. Eigenschaftstyp. Entweder `Text` oder `Multiline Text`
 
 ### Zusätzliche Einrichtung
 
@@ -256,12 +257,12 @@ Während der PDF-/Bildgenerierung muss ein AEM-Benutzer erstellt werden, um Seit
 
 Bei Verwendung von AEM 6.5.5+:
 
-* [Erstellen eines Benutzers in AEM](https://experienceleague.adobe.com/docs/experience-manager-65/forms/administrator-help/setup-organize-users/adding-configuring-users.html?lang=de&#create-a-user)
-* [Hinzufügen von Berechtigungen zu einem Benutzer in AEM](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=de&#permissions-in-aem)
+* [Erstellen von Benutzenden in AEM](https://experienceleague.adobe.com/docs/experience-manager-65/forms/administrator-help/setup-organize-users/adding-configuring-users.html?#create-a-user)
+* [Hinzufügen von Berechtigungen zu einem Benutzer in AEM](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?#permissions-in-aem)
 
 Bei Verwendung von AEM Cloud Services:
 
-* [Verwalten von Benutzern mit AEM Cloud Services](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=de&#accessing)
+* [Verwalten von Benutzern mit AEM Cloud Services](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?#accessing)
 
 Die folgenden Berechtigungen sind für den AEM-Service-Benutzer für den Inhalt erforderlich, der in PDF/Image konvertiert und an Veeva gesendet wird:
 
