@@ -1,71 +1,70 @@
 ---
 source-git-commit: bdc8e76125282ab294e34c5216311524e015c175
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 75%
-
+source-wordcount: '763'
+ht-degree: 2%
 ---
 # Richtlinien für Beiträge zur Adobe Consulting Services-Dokumentation
 
 ## Dokumentationsphilosophie
 
-Wir wissen, dass Benutzer von Adobe Experience Manager in extrem wettbewerbsorientierten Umgebungen arbeiten, um digitale Erlebnisse zu erstellen, die sie von ihren Wettbewerbern abheben. Wenn ACS fortschrittliche neue Tools für AEM bereitstellt, müssen diese unbedingt durch genaue und klare Dokumentation ergänzt werden, damit der Kunde sofort seine AEM-Investitionen nutzen und den ROI maximieren kann.
+Wir wissen, dass Adobe Experience Manager-Anwender in einem hart umkämpften Umfeld arbeiten und sich bemühen, digitale Erlebnisse zu schaffen, die sie von ihren Mitbewerbern unterscheiden. Wenn ACS fortschrittliche neue Tools für AEM bereitstellt, müssen diese unbedingt durch genaue und klare Dokumentation ergänzt werden, damit der Kunde sofort seine AEM-Investition nutzen und den ROI maximieren kann.
 
-Ziel der ACS-Dokumentation ist es, AEM-Anwender schnellstmöglich mit der Dokumentation vertraut zu machen. Daher steht bei uns eine genaue und nutzbare Dokumentation im Vordergrund und wir bemühen uns ständig um eine aktualisierte und bessere Dokumentation.
+Ziel der ACS-Dokumentation ist es, AEM-Anwendern die Dokumentation so schnell wie möglich zugänglich zu machen. Deshalb setzen wir auf genaue, brauchbare Dokumentation und bemühen uns, sie kontinuierlich zu aktualisieren und zu verbessern.
 
-## Beiträge zur Dokumentation
+## Dokumentationsbeiträge
 
-Im Interesse einer kontinuierlichen Verbesserung der ACS-Dokumentation ist die gesamte Community von AEM-Benutzenden herzlich eingeladen, zur Dokumentation beizutragen. Sei es durch Pull-Anfragen oder Probleme, bei den Verbesserungen der Dokumentation kann es sich um Korrekturen, Klarstellungen, Erweiterungen und weitere Beispiele handeln.
+Zur stetigen Verbesserung der ACS-Dokumentation ist die gesamte Community von AEM-Anwendern herzlich eingeladen, zur Dokumentation beizutragen. Sei es durch Pull-Anfragen oder -Probleme, Verbesserungen an der Dokumentation können Korrekturen, Klarstellungen, Erweiterungen und zusätzliche Beispiele sein.
 
 ## Dokumentationsstandards
 
-Auch wenn wir Beiträge zu unserer Dokumentation begrüßen, sollte jeder Beitrag zur AEM-Dokumentation in Form einer Pull-Anfrage oder eines Problems mit unseren Beitrags- und Dokumentationsstandards übereinstimmen.
+Auch wenn wir Beiträge zu unserer Dokumentation begrüßen, sollte jeder Beitrag zur AEM-Dokumentation, entweder in Form einer Pull-Anfrage oder eines Problems, unseren Beitrags- und Dokumentationsstandards entsprechen.
 
-Beiträge, die diesen Standards nicht entsprechen, können abgelehnt werden.
+Beiträge, die diese Standards nicht erfüllen, können abgelehnt werden.
 
-### Wir nutzen für die Dokumentation Standard-Anwendungsfälle.
+### Wir dokumentieren Standard-Anwendungsfälle.
 
 Die ACS-Dokumentation deckt Standard-Anwendungsfälle ab. Anwendungsfälle, die über den Umfang der standardmäßigen Installation und Verwendung des Produkts hinausgehen, sind nicht Teil der ACS-Dokumentation.
 
-### Wir dokumentieren üblicherweise keine Fehler oder ihre Umgehungslösungen.
+### Generell dokumentieren wir keine Fehler oder Problemumgehungen.
 
-Die ACS-Dokumentation deckt Standard-Anwendungsfälle ab. Aus diesem Grund werden Fehler, durch Fehler verursachte Effekte und Problemumgehungen normalerweise nicht dokumentiert.
+Die ACS-Dokumentation deckt Standard-Anwendungsfälle ab. Aus diesem Grund werden Fehler, durch Bugs verursachte Auswirkungen und Problemumgehungen für Bugs im Allgemeinen nicht dokumentiert.
 
-Ausnahmen gelten für die Versionshinweise, in denen bekannte Probleme mit möglichen Lösungen aufgelistet werden können, die vom AEM Product Management genehmigt wurden.
+Ausnahmen von dieser Regel gelten für die Versionshinweise, in denen bekannte Probleme mit möglichen Lösungen aufgelistet werden können, die vom AEM-Produktmanagement genehmigt wurden.
 
-### Dokumentationsbeiträge sind nicht zur Beantwortung technischer Fragen gedacht.
+### Dokumentationsbeiträge dienen nicht zur Beantwortung technischer Fragen.
 
-Alle Ideen zur Verbesserung der ACS-Dokumentation sind als Beiträge willkommen. Kommentare, Probleme und Pull-Anfragen sind jedoch nur für *Beiträge* vorgesehen. Sie sind nicht zur Beantwortung Ihrer Fragen über die Verwendung von AEM, Implementierung Ihres AEM-Projekts oder zur Lösung technischer Probleme gedacht.
+Alle Ideen zur Verbesserung der ACS-Dokumentation sind als Beiträge willkommen. Kommentare, Probleme und Pull-Anfragen sind jedoch nur für *Beiträge* vorgesehen. Sie sind nicht zur Beantwortung Ihrer Fragen über die Verwendung von AEM, Implementierung Ihres AEM-Projekts oder zur Lösung technischer Probleme vorgesehen.
 
-Fragen zur Verwendung von AEM oder zu technischen Fehlern, die möglicherweise bei Ihnen auftreten, sollten entsprechend dem herkömmlichen Support-Vorgang über das [Enterprise-Support-Portal für Experience Cloud](https://helpx.adobe.com/de/contact/enterprise-support.ec.html) gemeldet oder in der [Experience Manager-Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager) diskutiert werden.
+Fragen zur Verwendung von AEM oder zu technischen Fehlern, die möglicherweise bei Ihnen auftreten, sollten entsprechend dem herkömmlichen Support-Vorgang über das [Enterprise-Support-Portal für Experience Cloud](https://helpx.adobe.com/de/contact/enterprise-support.ec.html) gemeldet oder in der [Experience Manager-Community diskutiert &#x200B;](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
 
 ***ACS-Dokumentationsbeiträge sind kein Ersatz für die Adobe-Kundenunterstützung*** und Beiträge, die um Antwort auf Support-Fragen bitten, werden abgelehnt.
 
-### Die Beiträge müssen sich eindeutig auf die betroffenen Dokumentationsseiten beziehen.
+### Die Beiträge müssen klar auf die betroffenen Dokumentationsseiten verweisen.
 
-Wenn Sie ein Problem erstellen, um Verbesserungen an der Dokumentation vorzuschlagen, müssen Sie Links zu den betroffenen Seiten angeben. Wenn Sie ein Problem mithilfe des Links **Diese Seite bearbeiten** auf einer Dokumentationsseite erstellen, wird das Problem automatisch mit einem Link zur Seite erstellt.
+Wenn Sie ein Problem erstellen, um Verbesserungen an der Dokumentation vorzuschlagen, müssen Sie Links zu den betroffenen Seiten einfügen. Wenn Sie ein Problem über den Link **Diese Seite bearbeiten** auf einer Dokumentationsseite erstellen, wird das Problem automatisch mit einem Link zur Seite erstellt.
 
-Dies gilt nicht für Pull-Anfragen, da Pull-Anfragen standardmäßig auf die betroffene(n) Seite(n) verweisen.
+Dies gilt nicht für Pull-Anforderungen, da Pull-Anforderungen ihrer Art nach auf die betroffene(n) Seite(n) verweisen.
 
 ## Dokumentationsrichtlinien
 
-Wir bitten darum, dass alle Beiträge zu unserer Dokumentation bestimmten Stilrichtlinien folgen.
+Wir bitten darum, dass alle Beiträge zu unserer Dokumentation bestimmten Stilrichtlinien entsprechen.
 
-Durch das Befolgen dieser Richtlinien erleichtern Sie die Überprüfung Ihres Beitrags und beschleunigen somit dessen Aufnahme in unsere Dokumentation.
+Die Befolgung dieser Richtlinien erleichtert die Überprüfung Ihres Beitrags und ermöglicht eine schnellere Integration in unsere Dokumentation.
 
 ### Sprache und Stil
 
 #### Sprache
 
 * Die ACS-Dokumentation wird in englischer Sprache verfasst und gepflegt.
-* Ausdrücke sollten so einfach wie möglich sein.
-* Drücken Sie sich klar und bündig aus.
+* Halten Sie Sätze so einfach wie möglich.
+* Halten Sie die Sprache klar und prägnant.
 
-Denken Sie daran, dass die Leser der ACS-Dokumentation auf der ganzen Welt zu finden sind und von ihnen nicht erwartet werden kann, dass sie fließend Englisch beherrschen oder Muttersprachler sind. Vermeiden Sie umgangssprachliche Wendungen und verwenden Sie eine klare und einfache Sprache wie möglich.
+Denken Sie daran, dass die Leser der ACS-Dokumentation auf der ganzen Welt zu finden sind und von ihnen nicht erwartet werden kann, dass sie fließend Englisch beherrschen oder Muttersprachler sind. Umgangssprachliche Formulierungen vermeiden und die Sprache so klar und einfach wie möglich halten.
 
-#### Befolgen Sie das Stil-Handbuch von Microsoft.
+#### Folgen Sie dem Microsoft Manual of Style
 
-Das [Manual of Style von Microsoft](https://docs.microsoft.com/de-de/style-guide/welcome/) ist ein kostenloses Stil-Handbuch zur Dokumentation von Software. Die AEM-Dokumentation folgt soweit möglich diesem Modell.
+[Das Manual of Style von Microsoft](https://docs.microsoft.com/en-us/style-guide/welcome/) ist ein kostenloses Stil-Handbuch zur Dokumentation von Software. Die AEM-Dokumentation folgt soweit möglich diesem Modell.
 
 ### Formatierung
 
@@ -77,16 +76,16 @@ Das [Manual of Style von Microsoft](https://docs.microsoft.com/de-de/style-guide
 
 ### Screenshots
 
-Screenshots sollen mit Bedacht und nur dann verwendet werden, wenn eine Textbeschreibung nicht ausreicht.
+Screenshots sind umsichtig und nur dann zu verwenden, wenn eine textliche Beschreibung nicht ausreicht.
 
-Markierungen oder andere Anmerkungen in Screenshots (wie rote Rahmen, Pfeile oder Text) sollten nicht verwendet werden. Auf diese Weise können die Screenshots in lokalisierten Versionen der Dokumentation einfacher wiederverwendet oder repliziert werden.
+Markierungen oder andere Anmerkungen in Screenshots (wie rote Rahmen, Pfeile oder Text) sollten nicht verwendet werden. Auf diese Weise sind die Screenshots in lokalisierten Versionen der Dokumentation einfacher wiederzuverwenden oder zu replizieren.
 
 ### Versionsspezifische Verweise
 
-Versuchen Sie nach Möglichkeit direkte Verweise auf eine bestimmte Version im gesamten Dokumentationsinhalt zu vermeiden. Dadurch wird die Dokumentation für künftige Versionen flexibler und erweiterbarer.
+Versuchen Sie möglichst im gesamten Dokumentationsinhalt direkte Verweise auf eine bestimmte Version zu vermeiden. Dies macht die Dokumentation flexibler und erweiterbar für zukünftige Versionen.
 
 ### Verwendung von Day, AEM, CQ, CRX
 
 Das Produkt sollte in einem Artikel zum ersten Mal immer mit dem vollständigen Namen **Adobe Experience Manager** genannt und anschließend als **AEM** bezeichnet werden.
 
-Day, Day-Software, CQ und CRX sollten nur verwendet werden, wenn dies unvermeidlich ist, z. B. in Klassennamen oder bei Verweisen auf die AEM-Historie.
+Day, Day-Software, CQ und CRX sollten nur verwendet werden, wenn dies unvermeidlich ist, z. B. bei Klassennamen oder bei Verweisen auf die Historie von AEM.
